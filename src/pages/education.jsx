@@ -80,7 +80,7 @@ function Education() {
               </a>
 
               <Link
-                to="/screening"
+                to="/screening#start"
                 className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 text-sm font-semibold text-[#102A43] transition hover:border-blue-300"
               >
                 Buka skrining
@@ -421,7 +421,7 @@ function Education() {
       </section>
 
       {/* Closing CTA */}
-      <section className="mx-auto w-[calc(100%-36px)] max-w-[1200px] py-14 md:w-[calc(100%-64px)] md:py-20">
+      <section id="start" className="mx-auto w-[calc(100%-36px)] max-w-[1200px] scroll-mt-8 py-14 md:w-[calc(100%-64px)] md:py-20">
         <div className="rounded-3xl bg-[#102A43] p-6 text-white sm:p-10 lg:flex lg:items-center lg:justify-between lg:gap-10">
           <div className="max-w-2xl">
             <p className="text-[11px] font-extrabold tracking-[1.8px] text-teal-300">

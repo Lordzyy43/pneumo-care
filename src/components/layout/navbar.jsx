@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { ArrowUpRight, Menu } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 function Navbar() {
   return (

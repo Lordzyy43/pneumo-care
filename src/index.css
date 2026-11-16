@@ -44,6 +44,37 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+:where(a, button, input, select, textarea):focus-visible {
+  outline: 3px solid #0d9488;
+  outline-offset: 3px;
+}
+
+@media print {
+  header,
+  nav,
+  button,
+  a {
+    display: none !important;
+  }
+
+  body,
+  main {
+    background: #fff !important;
+    color: #111827 !important;
+  }
+
+  main {
+    min-height: auto !important;
+    padding: 0 !important;
+  }
+
+  section,
+  article {
+    break-inside: avoid;
+    box-shadow: none !important;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
